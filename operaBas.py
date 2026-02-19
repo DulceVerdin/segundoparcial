@@ -22,8 +22,6 @@ def division():
     os.system("cls")
     a = int(input("Ingrese el primer valor : "))
     b = int(input("Ingrese el segundo valor : "))
-    if b == 0:
-        return "Error: división entre cero"
     return a/b
 
 def menu():
