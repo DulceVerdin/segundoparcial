@@ -1,4 +1,5 @@
 import os
+
 alumno1 = {
     "nombre":"",
     "edad":0,
@@ -8,6 +9,8 @@ alumno1 = {
 ico201=[]
 os.system('cls')
 num=int(input("¿Cuantos alunnos,quieres ingresar?"))
+
+
 for i in range(num):
     nombre = input("Nombre del alumno:")
     edad = int(input("Edad del alumno:" ))

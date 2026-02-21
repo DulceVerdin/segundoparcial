@@ -26,8 +26,13 @@ def suma():
     c= a + b
 
     a=3
+    print("la suma es:",suma())
     b=7
     c=a+b
-    return c # siempre va al final 
-print(suma())
+    def multiplica(x,y):
+     return c # siempre va al final 
+
+
+def multiplica(a,b):
+    return
 
