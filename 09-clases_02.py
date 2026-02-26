@@ -20,8 +20,7 @@ class operasBas:
         self.res=self.n1/self.n2
         return self.res
     
-#Pedir numeros con variable def y self
-    def pedirNumeros(self): #Es parte de la clase y siempre debe estar entre ()
+    def pedirNumeros(self): 
         self.n1 = int(input("n1: "))
         self.n2 = int(input("n2: "))
 
